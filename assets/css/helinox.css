@@ -1,0 +1,489 @@
+#helinox1 {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  background: #000; }
+  #helinox1 .project2Main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #helinox1 .project2Main .whiteHalf {
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+      position: absolute;
+      background: #fff;
+      height: 154%;
+      width: 87%;
+      top: 1%;
+      right: -22%; }
+    #helinox1 .project2Main .mainCircleWrap {
+      position: relative;
+      width: 34.8958vw;
+      height: 34.8958vw;
+      margin: 0 auto; }
+      #helinox1 .project2Main .mainCircleWrap .bigMainCircle {
+        -webkit-transition: top 1s, left 2s;
+        -moz-transition: top 1s, left 2s;
+        -o-transition: top 1s, left 2s;
+        transition: top 1s, left 2s;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        margin: 11.3021vw auto 0;
+        overflow: hidden;
+        z-index: 500; }
+        #helinox1 .project2Main .mainCircleWrap .bigMainCircle img {
+          -webkit-transition: left 0.5s 1s, transform 2s 0s;
+          -moz-transition: left 0.5s 1s, transform 2s 0s;
+          -o-transition: left 0.5s 1s, transform 2s 0s;
+          transition: left 0.5s 1s, transform 2s 0s;
+          position: absolute;
+          top: -45%; }
+        #helinox1 .project2Main .mainCircleWrap .bigMainCircle::before {
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          position: absolute;
+          border: 1px solid #fff;
+          top: 0;
+          left: 420px; }
+        #helinox1 .project2Main .mainCircleWrap .bigMainCircle.up {
+          top: 50%; }
+          #helinox1 .project2Main .mainCircleWrap .bigMainCircle.up img {
+            top: -15%;
+            left: 15%; }
+        #helinox1 .project2Main .mainCircleWrap .bigMainCircle.leftout {
+          left: -200%;
+          top: 50%; }
+          #helinox1 .project2Main .mainCircleWrap .bigMainCircle.leftout img {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+            /* left: -20%; */ }
+      #helinox1 .project2Main .mainCircleWrap .empty {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: 217px;
+        left: 420px;
+        width: 670px;
+        height: 670px;
+        border: 1px solid #000;
+        z-index: 200; }
+      #helinox1 .project2Main .mainCircleWrap .emptyCircle1 {
+        left: 349px; }
+      #helinox1 .project2Main .mainCircleWrap .emptyCircle3 {
+        left: 491px; }
+  #helinox1 p {
+    position: absolute;
+    display: fixed;
+    top: 455px;
+    right: 106px;
+    font-family: "Fugaz one";
+    font-size: 130px;
+    color: #000;
+    z-index: 500; }
+  #helinox1 .simpleExplain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 9.8958vw; }
+    #helinox1 .simpleExplain .sicssor {
+      position: relative;
+      height: 11.6666vw;
+      line-height: 11.6666vw;
+      width: 100%; }
+      #helinox1 .simpleExplain .sicssor::before {
+        content: "";
+        clear: both;
+        position: absolute;
+        border-top: 3px dashed #fff;
+        top: -2px;
+        right: 0;
+        width: 97%; }
+      #helinox1 .simpleExplain .sicssor img {
+        position: absolute;
+        top: -32px;
+        left: 0;
+        fill: #fff; }
+      #helinox1 .simpleExplain .sicssor img.helinoxLogo {
+        position: absolute;
+        top: 3.0208vw;
+        left: 13.802vw;
+        width: 19.1146vw;
+        height: 4.1146vw; }
+      #helinox1 .simpleExplain .sicssor .explainText {
+        position: relative;
+        float: right;
+        width: 41.6667vw;
+        height: 114.5px; }
+        #helinox1 .simpleExplain .sicssor .explainText p {
+          position: absolute;
+          display: block;
+          font-size: 17px;
+          line-height: 27px;
+          font-family: "Fugaz one";
+          /* padding-right: 87px;  */
+          color: #fff;
+          text-align: left; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(1), #helinox1 .simpleExplain .sicssor .explainText p:nth-child(3), #helinox1 .simpleExplain .sicssor .explainText p:nth-child(5) {
+            left: 0; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(1) {
+            top: 40.5px; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(2) {
+            top: 40.5px;
+            left: 200px; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(3) {
+            top: 80.5px; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(4) {
+            top: 80.5px;
+            left: 200px; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(5) {
+            top: 120.5px; }
+          #helinox1 .simpleExplain .sicssor .explainText p:nth-child(6) {
+            top: 120.5px;
+            left: 200px; }
+
+/* helinox2 common */
+h3 {
+  font-family: KoreanDREAM5;
+  font-size: 1.4583vw;
+  padding-bottom: 1.25vw;
+  font-weight: 400; }
+
+p.content {
+  font-family: KoreanDREAM3;
+  font-size: 0.78125vw;
+  line-height: 1.25vw;
+  display: block;
+  padding-bottom: 130px; }
+
+/* helinox2 CSS */
+#helinox2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #F6F6F6;
+  width: 100%;
+  height: 100vh; }
+  #helinox2 .designLeft {
+    margin-left: 8.6979vw;
+    margin-top: 7.34375vw;
+    position: relative; }
+    #helinox2 .designLeft img:first-child {
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox2 .designLeft img {
+      font-size: 137px; }
+    #helinox2 .designLeft img + img {
+      margin-top: -22px; }
+  #helinox2 .designRight {
+    margin-left: 268px;
+    margin-top: 141px; }
+    #helinox2 .designRight .designColor > p {
+      padding-bottom: 29px; }
+    #helinox2 .designRight .designColor .colorWrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      padding-left: 17px; }
+      #helinox2 .designRight .designColor .colorWrap .colorCubeWrap {
+        margin-right: 101px; }
+      #helinox2 .designRight .designColor .colorWrap .colorCube {
+        width: 206px;
+        height: 101px; }
+      #helinox2 .designRight .designColor .colorWrap .mainBlue {
+        background: #1C98D6; }
+      #helinox2 .designRight .designColor .colorWrap .mainGrey1 {
+        background: #333333; }
+      #helinox2 .designRight .designColor .colorWrap .mainGrey2 {
+        background: #e2e2e2; }
+      #helinox2 .designRight .designColor .colorWrap p {
+        font-family: KoreanDREAM3;
+        font-size: 0.78125vw;
+        line-height: 1.25vw;
+        letter-spacing: 0.05em;
+        padding-top: 0.78125vw; }
+    #helinox2 .designRight .designTypo {
+      margin-top: 7.34375vw; }
+      #helinox2 .designRight .designTypo > p {
+        padding-bottom: 29px; }
+      #helinox2 .designRight .designTypo img {
+        padding-left: 17px; }
+
+/* helinox3 CSS */
+#helinox3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #F6F6F6; }
+  #helinox3 .bgLine {
+    position: absolute;
+    width: 100%;
+    height: 302px;
+    background: #1C98D6;
+    top: calc(50% - 148.5px);
+    left: 0; }
+    #helinox3 .bgLine > p {
+      font-family: KoreaDREAM3;
+      font-size: 3.2292vw;
+      letter-spacing: -0.27px;
+      line-height: 4.1146vw;
+      font-weight: 900;
+      padding: 73px 0 73px 12.65625vw;
+      color: #fff;
+      text-align: left; }
+  #helinox3 .originalHomepage {
+    position: relative;
+    display: inline-block;
+    /* p {
+      display: inline-block; font-family: KoreanDREAM3; padding: 60px 0 50px 400px;
+    } */ }
+    #helinox3 .originalHomepage img {
+      position: absolute;
+      top: 10.5208vw;
+      left: 16.4583vw;
+      width: 26.1979vw; }
+  #helinox3 .analysisText {
+    position: relative;
+    width: 35.9375vw;
+    height: 171px;
+    float: left;
+    padding-left: 206px;
+    margin-top: 168px; }
+    #helinox3 .analysisText img {
+      position: absolute;
+      top: -15px;
+      left: 21%;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox3 .analysisText p {
+      padding-bottom: 0; }
+
+/* helinox4 CSS */
+#helinox4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #F6F6F6; }
+  #helinox4 .wireframe {
+    display: inline-block;
+    margin-left: 0;
+    position: relative;
+    margin: 4.1666vw 0 4.1666vw;
+    width: 100%; }
+    #helinox4 .wireframe > img:first-child {
+      position: absolute;
+      top: -15px;
+      left: 44.5%;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox4 .wireframe h3 {
+      text-align: center; }
+    #helinox4 .wireframe .content {
+      padding-bottom: 0;
+      text-align: center; }
+      #helinox4 .wireframe .content span {
+        color: #16aec0; }
+  #helinox4 .wireframeWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 87.2396vw;
+    height: 33.8541vw;
+    text-align: center;
+    margin: 0 auto; }
+    #helinox4 .wireframeWrap img {
+      width: 21.5104vw;
+      height: 33.8541vw; }
+    #helinox4 .wireframeWrap span {
+      display: block;
+      font-family: KoreaDREAM5;
+      font-size: 22px;
+      color: #c4c4c4;
+      text-align: center; }
+
+/* helinox5 CSS */
+#helinox5 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  margin-left: 0;
+  padding-top: 111px; }
+  #helinox5 .deviceDetail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    height: 81px; }
+    #helinox5 .deviceDetail > img:first-child {
+      position: absolute;
+      top: -15px;
+      left: 5%;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox5 .deviceDetail h3 {
+      display: inline-block;
+      padding: 0 0 0 113px;
+      vertical-align: top;
+      color: #fff; }
+    #helinox5 .deviceDetail > p {
+      display: inline-block;
+      padding-left: 105px;
+      color: #fff; }
+    #helinox5 .deviceDetail .deviceExplain {
+      font-size: 0.78125vw;
+      line-height: 1.25vw; }
+      #helinox5 .deviceDetail .deviceExplain span {
+        color: #1c98d6; }
+  #helinox5 .mockup {
+    margin: 6.7708vw auto;
+    width: 42.8125vw; }
+  #helinox5 .helinoxMockups {
+    font-size: 0; }
+    #helinox5 .helinoxMockups .mockupBg {
+      width: 21.40625vw;
+      height: 16.0417vw;
+      display: inline-block; }
+      #helinox5 .helinoxMockups .mockupBg img {
+        width: 21.40625vw; }
+    #helinox5 .helinoxMockups .hand1Bg {
+      background: #1c98d6; }
+    #helinox5 .helinoxMockups .hand2Bg {
+      background: #ffffff; }
+    #helinox5 .helinoxMockups .hand3Bg {
+      background: #fff; }
+    #helinox5 .helinoxMockups .hand4Bg {
+      background: #1c98d6; }
+
+/* helinox6 CSS */
+#helinox6 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000; }
+  #helinox6 .mainPagePreview {
+    position: relative;
+    width: 690px;
+    height: 171px;
+    float: left;
+    padding-left: 206px;
+    margin-top: 168px; }
+    #helinox6 .mainPagePreview img {
+      position: absolute;
+      top: -15px;
+      left: 21%;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox6 .mainPagePreview h3 {
+      color: #fff; }
+    #helinox6 .mainPagePreview p {
+      color: #fff;
+      padding-bottom: 0; }
+  #helinox6 .mainPreviewImgs {
+    position: relative; }
+    #helinox6 .mainPreviewImgs img {
+      position: absolute;
+      right: -20%; }
+  #helinox6 a {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 75px;
+    left: 150px;
+    display: block;
+    background: #fff;
+    width: 252px;
+    height: 74px;
+    line-height: 74px;
+    font-family: "Fugaz one";
+    font-size: 24px;
+    color: #000;
+    text-align: center; }
+
+/* helinox8 CSS */
+#helinox8 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000; }
+  #helinox8 .aboutPagePreview {
+    position: relative;
+    width: 550px;
+    height: 171px;
+    float: right;
+    padding-right: 10%;
+    margin-top: 28%; }
+    #helinox8 .aboutPagePreview img {
+      position: absolute;
+      top: -15px;
+      left: -2%;
+      width: 18.16px;
+      height: 18.36px; }
+    #helinox8 .aboutPagePreview h3 {
+      color: #fff; }
+    #helinox8 .aboutPagePreview p {
+      color: #fff;
+      padding-bottom: 0; }
+      #helinox8 .aboutPagePreview p span {
+        color: #1c98d6; }
+  #helinox8 .aboutPreviewImg {
+    font-size: 0;
+    width: 924px;
+    height: 100%;
+    padding-left: 125px; }
+    #helinox8 .aboutPreviewImg img + img {
+      padding-left: 25px; }
+  #helinox8 a {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 75px;
+    right: 25%;
+    display: block;
+    background: #fff;
+    width: 252px;
+    height: 74px;
+    line-height: 74px;
+    font-family: "Fugaz one";
+    font-size: 24px;
+    color: #000;
+    text-align: center; }
+
+/*# sourceMappingURL=helinox.css.map */

@@ -1,0 +1,248 @@
+@charset "utf-8";
+@import "_var", "_mixin", "_function";
+
+/* Google Web font CDN */
+@import url(https://fonts.googleapis.com/css?family=VT323:regular);
+@import url(https://fonts.googleapis.com/css?family=Chonburi:regular);
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One:regular);
+
+/* Font face */
+@font-face {
+  font-family: KoreanDREAM3;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/KoreanDREAM3-R.eot");
+  src: url("../font/KoreanDREAM3-R.eot#iefix") format("embedded-opentype"),
+       url("../font/KoreanDREAM3-R.woff2") format("woff2"),
+       url("../font/KoreanDREAM3-R.woff") format("woff"),
+       url("../font/KoreanDREAM3-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: KoreanDREAM5;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/KoreanDREAM5-R.eot");
+  src: url("../font/KoreanDREAM5-R.eot#iefix") format("embedded-opentype"),
+       url("../font/KoreanDREAM5-R.woff2") format("woff2"),
+       url("../font/KoreanDREAM5-R.woff") format("woff"),
+       url("../font/KoreanDREAM5-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: DXPnM;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/DXPnM-KSCpc-EUC-H.eot");
+  src: url("../font/DXPnM-KSCpc-EUC-H.eot#iefix") format("embedded-opentype"),
+       url("../font/DXPnM-KSCpc-EUC-H.woff2") format("woff2"),
+       url("../font/DXPnM-KSCpc-EUC-H.woff") format("woff"),
+       url("../font/DXPnM-KSCpc-EUC-H.ttf") format("truetype");
+}
+@font-face {
+  font-family: Seongsil;
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/Seongsil.eot");
+  src: url("../font/Seongsil.eot#iefix") format("embedded-opentype"),
+       url("../font/Seongsil.woff2") format("woff2"),
+       url("../font/Seongsil.woff") format("woff"),
+       url("../font/Seongsil.ttf") format("truetype");
+}
+
+/* Tag reset CSS */
+body, div, ul, h1, h2, h3, h4, h5, h6, button, p {margin: 0;padding: 0;}
+ul {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit;}
+img {vertical-align: top;}
+a:link, a:visited, a:hover, a:active {text-decoration: none;color: inherit;}
+button {border: none; background: none; cursor: pointer;}
+header, nav, section, footer {display: block;}
+
+/* common class */
+.blind-b {width: 1px;height: 1px;position: absolute; overflow: none; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%);}
+.max1440 {max-width: 1440px; width: 100%; margin: 0 auto;}
+.max768 {max-width: 768px; width: 100%; margin: 0 auto;}
+.clearfix::before, .clear::after {content: ""; display: block; clear: both;}
+.fade {
+  @include transition(all 1s);
+  opacity: 0;
+  &.up {@include transform(translateY(30px));}
+  &.down {@include transform(translateY(-30px));}
+  &.left {@include transform(translateX(30px));}
+  &.right {@include transform(translateX(-30px));}
+  &.smaller {@include transform(scale(1.5));}
+  &.bigger {@include transform(translateX(0.7));}
+}
+.fade.on {
+  opacity: 1;
+  &.up, &.down {@include transform(translateY(0px));}
+  &.left, &.right {@include transform(translateX(0px));}
+  &.smaller, &.bigger {@include transform(scale(1));}
+}
+
+/* Default CSS */
+body {
+  font-family: KoreanDREAM3, "맑은 고딕", "Malgun Gothic"; font-weight: 400; background-color: #B4CAFA;color: #000; overflow-x: hidden; 
+}
+
+/* Skip navigation */
+#skip a {
+  position: absolute; left: -9999px; top: 0; z-index: 1000;
+  &:focus {
+    left: 0; width: 100%; background: #FAF2A7; color: #000; text-align: center;font-weight: 400;font-size: 25px;height: 50px;line-height: 50px; 
+  }
+}
+
+
+/* Logo & navigation */
+#wrap {
+  position: relative; overflow: hidden;
+  #header {
+    z-index: 2000;position: relative;
+    .logo {
+      display: none; position: absolute; top: 29px; left: 32px; width: 131px; height: 77px; cursor: url('../img/icon/cursor_icon.png'), auto;
+      a {width: 131px; height: 77px;  }
+    }
+    .util {
+      position: relative; position: fixed; top: 19px; right: 22px; z-index: 1000;
+      > .btn_open img {width: 44px;height: 44px; cursor: url('../img/icon/cursor_icon.png'), auto;}
+    }
+    .navWrap {
+        visibility: hidden; position: fixed; top: 0; left: 100%; background: $lightpurple;overflow-y: auto; right: 0; bottom: 0; overflow: hidden; 
+        #gnb {
+            position: absolute; text-align: left; left: 10.625vw; top: 9.1146vw; width: 46.875vw; height: 32.1875vw;
+            ul {
+                font-size: 5.9895vw; line-height: 8.3333vw; font-family: Chonburi; color: $lightyellow;
+                li {
+                  position: relative;  
+                  a {
+                    cursor: url('../img/icon/cursor_icon.png'), auto;
+                    &:hover, &:focus {border-bottom: 4px solid $lightyellow; }
+                  }
+                }
+            }
+        }
+    }
+    .sns, .email {position: absolute; color: #fff; left: 64.84375vw;}
+    .sns p, .email p:first-child {padding-bottom: 0.9375vw; font-size: 30px; font-weight: bold;}
+    .sns {
+        top: 22.65625vw; right: 27.8125vw; 
+        ul li {
+          font-size: 27px; letter-spacing: 0.61px; padding-bottom: 10px; 
+          a {cursor: url('../img/icon/cursor_icon.png'), auto;}
+        }
+    }
+    .email{
+        bottom: 5.8021vw;
+        p:last-child {
+          font-size: 27px; letter-spacing: 0.61px; text-decoration: underline; 
+          a {cursor: url('../img/icon/cursor_icon.png'), auto;}
+        }
+    }
+    .btn_close {position: fixed; top: 19px; right: 22px; cursor: url('../img/icon/cursor_icon.png'), auto;}
+  }
+}
+
+/* Footer */
+footer {
+  position: relative; width: 100%; height: 46.875vw; background: $lightyellow; display: flex;
+  .contact div, .bigEmail {font-family: "Fugaz One"; }
+  .contact {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    position: absolute; top: 13.6458vw; left: 7.2916vw; width: 10.4167vw; height: 3.75vw; 
+    > div {
+        @include border-radius(50%);
+        font-size: 1.5104vw; border: 1px solid #fff; width: 100%; line-height: 3.75vw; background: $lightpurple; color: #fff; text-align: center;
+    }
+  }
+  .bigEmail {
+    font-size: 5.7292vw; color: #444242; text-decoration: underline; padding: 21.3542vw 0 0 6.6145vw;
+    a { cursor: url('../img/icon/cursor_icon.png'), auto;}
+  }
+  .sns {
+    display: flex; position: absolute; bottom: 10.2604vw; left: 6.6146vw; font-family: "Fugaz one"; font-size: 40px; color: #444242;
+    a {
+      flex-direction: row; display: block; cursor: url('../img/icon/cursor_icon.png'), auto;
+      &:hover, &:focus {text-decoration: underline;}
+    }
+    a + a {margin-left: 6.7708vw;}
+  }
+  .phoneImg {
+    @include animation(ring 3.6s linear infinite);
+    position: absolute; width: 29.4792vw; height: 30vw; top: 64px; right: 0;
+  }
+  @include keyframes(ring) {
+    0% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+    3% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+    6% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+    9% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+    12% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+    15% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+    18% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+    100% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #wrap {
+    #header {
+      .logo {
+        top: 11px; left: 20px; width: 100px; 
+        a {width: 100px;}
+      }
+      .util {
+        top: 22px; right: 22px;
+        > .btn_open img {width: 40px; height: 40px;}
+      }
+      .navWrap {
+          #gnb {
+              left: 11.625vw; top: 13.1146vw; width: 41.875vw; height: 36.1875vw;
+              ul {
+                  font-size: 101px; line-height: 136px;
+                  li {
+                    a {
+                      &:hover, &:focus {border-bottom: 3px solid $lightyellow; }
+                    }
+                  }
+              }
+          }
+      }
+      .sns p, .email p:first-child {font-size: 28px;}
+      .sns {
+          ul li {
+            font-size: 25px;
+          }
+      }
+      .email{
+          bottom: 195px;
+          p:last-child {
+            font-size: 25px;
+          }
+      }
+      .btn_close {top: 22px;}
+    }
+  }
+
+  /* Footer */
+  footer {
+    height: 46.875vw;
+    .bigEmail {font-size: 4.7292vw;}
+    .sns {
+      font-size: 38px; bottom: 11.2604vw;
+    }
+    .phoneImg {
+      @include animation(ring 3.6s linear infinite);
+    }
+    @include keyframes(ring) {
+      0% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+      3% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+      6% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+      9% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+      12% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+      15% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(-5deg) scale(1,1);}
+      18% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+      100% {opacity: 1; transform: translateX(0px) translateY(0px) rotate(0deg) scale(1,1);}
+    }
+  }
+}

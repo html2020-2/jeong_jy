@@ -1,0 +1,494 @@
+#heyri1 {
+  position: relative;
+  width: 100%;
+  height: 150vh;
+  background: #FFEEDB; }
+  #heyri1 .project3Main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #heyri1 .project3Main .mainCircleWrap {
+      position: relative;
+      width: 34.8958vw;
+      height: 34.8958vw;
+      margin: 0 auto; }
+      #heyri1 .project3Main .mainCircleWrap .bigMainCircle {
+        -webkit-transition: top 1s, left 2s;
+        -moz-transition: top 1s, left 2s;
+        -o-transition: top 1s, left 2s;
+        transition: top 1s, left 2s;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        margin: 11.3021vw auto 0;
+        overflow: hidden;
+        z-index: 500; }
+        #heyri1 .project3Main .mainCircleWrap .bigMainCircle img {
+          -webkit-transition: left 0.5s 1s, transform 2s 0s;
+          -moz-transition: left 0.5s 1s, transform 2s 0s;
+          -o-transition: left 0.5s 1s, transform 2s 0s;
+          transition: left 0.5s 1s, transform 2s 0s;
+          position: absolute;
+          /* top: 0;  */
+          /* left: -13%; */ }
+        #heyri1 .project3Main .mainCircleWrap .bigMainCircle::before {
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          position: absolute;
+          border: 1px solid #fff;
+          top: 0;
+          left: 420px; }
+        #heyri1 .project3Main .mainCircleWrap .bigMainCircle.up {
+          top: 50%; }
+        #heyri1 .project3Main .mainCircleWrap .bigMainCircle.leftout {
+          left: -200%;
+          top: 50%; }
+          #heyri1 .project3Main .mainCircleWrap .bigMainCircle.leftout img {
+            -webkit-transform: rotate(-360deg);
+            -moz-transform: rotate(-360deg);
+            -o-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+            left: -30%;
+            top: -5%;
+            height: 36.4583vw; }
+      #heyri1 .project3Main .mainCircleWrap .empty {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: 217px;
+        left: 420px;
+        width: 670px;
+        height: 670px;
+        border: 1px solid #442a0d;
+        z-index: 200; }
+      #heyri1 .project3Main .mainCircleWrap .emptyCircle1 {
+        left: 349px; }
+      #heyri1 .project3Main .mainCircleWrap .emptyCircle3 {
+        left: 491px; }
+    #heyri1 .project3Main p {
+      position: absolute;
+      display: fixed;
+      top: 23.6979vw;
+      right: 48px;
+      font-family: "Fugaz one";
+      font-size: 6.7708vw;
+      color: #000;
+      line-height: 6.3541vw;
+      z-index: 500; }
+  #heyri1 .simpleExplain {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #442A0D;
+    width: 100%;
+    height: 190px; }
+    #heyri1 .simpleExplain .sicssor {
+      position: relative;
+      height: 224px;
+      line-height: 224px;
+      width: 100%; }
+      #heyri1 .simpleExplain .sicssor::before {
+        content: "";
+        clear: both;
+        position: absolute;
+        border-top: 3px dashed #181818;
+        top: -2px;
+        right: 0;
+        width: 97%; }
+      #heyri1 .simpleExplain .sicssor img {
+        position: absolute;
+        top: -32px;
+        left: 0;
+        fill: #fff; }
+      #heyri1 .simpleExplain .sicssor img.heyriLogo {
+        position: absolute;
+        top: 70px;
+        left: 11.9791vw;
+        width: 22.8125vw; }
+      #heyri1 .simpleExplain .sicssor .explainText {
+        position: relative;
+        float: right;
+        width: 41.6667vw;
+        height: 114.5px; }
+        #heyri1 .simpleExplain .sicssor .explainText p {
+          position: absolute;
+          display: block;
+          font-size: 17px;
+          line-height: 27px;
+          font-family: "Fugaz one";
+          /* padding-right: 87px;  */
+          color: #fff;
+          text-align: left; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(1), #heyri1 .simpleExplain .sicssor .explainText p:nth-child(3), #heyri1 .simpleExplain .sicssor .explainText p:nth-child(5) {
+            left: 0; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(1) {
+            top: 40.5px; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(2) {
+            top: 40.5px;
+            left: 200px; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(3) {
+            top: 80.5px; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(4) {
+            top: 80.5px;
+            left: 200px; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(5) {
+            top: 120.5px; }
+          #heyri1 .simpleExplain .sicssor .explainText p:nth-child(6) {
+            top: 120.5px;
+            left: 200px; }
+
+/* heyri2 common */
+h3 {
+  font-family: KoreanDREAM5;
+  font-size: 1.4583vw;
+  padding-bottom: 24px;
+  font-weight: 400; }
+
+p.content {
+  font-family: KoreanDREAM3;
+  font-size: 0.78125vw;
+  line-height: 1.1458vw;
+  display: block;
+  padding-bottom: 25px; }
+
+#heyri2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #ffeedb;
+  width: 100%;
+  height: 100vh; }
+  #heyri2 .designLeft {
+    margin-left: 8.6979vw;
+    margin-top: 7.34375vw;
+    position: relative; }
+    #heyri2 .designLeft > img:first-child {
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 18.16px;
+      height: 18.36px; }
+    #heyri2 .designLeft > p {
+      padding-bottom: 46px; }
+    #heyri2 .designLeft .ceramicImgWrap {
+      font-size: 0;
+      width: 31.1458vw; }
+      #heyri2 .designLeft .ceramicImgWrap img {
+        height: 10.8854vw;
+        width: 15.5729vw; }
+    #heyri2 .designLeft .designLogo {
+      margin-top: 4.84375vw; }
+      #heyri2 .designLeft .designLogo .logoImgWrap {
+        font-size: 0;
+        width: 29.2708vw; }
+      #heyri2 .designLeft .designLogo img {
+        width: 14.6354vw; }
+  #heyri2 .designRight {
+    margin-left: 108px;
+    margin-top: 156px; }
+    #heyri2 .designRight .designColor > p {
+      padding-bottom: 29px; }
+    #heyri2 .designRight .designColor .colorWrap {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      padding-left: 17px; }
+      #heyri2 .designRight .designColor .colorWrap .colorCubeWrap {
+        margin-right: 1.5625vw; }
+      #heyri2 .designRight .designColor .colorWrap .colorCube {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        width: 137px;
+        height: 137px;
+        margin-bottom: 21px; }
+        #heyri2 .designRight .designColor .colorWrap .colorCube.mainBeige {
+          background: #E2CEBD; }
+        #heyri2 .designRight .designColor .colorWrap .colorCube.pointBrown {
+          background: #442A0D; }
+        #heyri2 .designRight .designColor .colorWrap .colorCube.mainText {
+          background: #333333; }
+        #heyri2 .designRight .designColor .colorWrap .colorCube.subText {
+          background: #e2e2e2; }
+        #heyri2 .designRight .designColor .colorWrap .colorCube p {
+          font-family: KoreanDREAM3;
+          font-size: 0.78125vw;
+          line-height: 1.25vw;
+          letter-spacing: 0.05em; }
+    #heyri2 .designRight .designTypo {
+      margin-top: 5.8333vw; }
+      #heyri2 .designRight .designTypo > p {
+        padding-bottom: 1.40625vw; }
+      #heyri2 .designRight .designTypo img {
+        padding-left: 0.8854vw; }
+
+/* heyri3 CSS */
+#heyri3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #ffeedb; }
+  #heyri3 .bgLine {
+    position: absolute;
+    width: 100%;
+    height: 302px;
+    background: #442A0D;
+    bottom: 70px;
+    left: 0; }
+    #heyri3 .bgLine > p {
+      font-family: KoreaDREAM3;
+      font-size: 3.2292vw;
+      letter-spacing: -0.27px;
+      line-height: 4.1146vw;
+      font-weight: 900;
+      padding: 73px 0 73px 243px;
+      color: #fff;
+      text-align: left; }
+  #heyri3 .originalHomepage {
+    position: relative;
+    display: inline-block; }
+    #heyri3 .originalHomepage p {
+      display: inline-block;
+      font-family: KoreanDREAM3;
+      padding: 60px 0 50px 20.8333vw; }
+    #heyri3 .originalHomepage .mainPageIMG {
+      position: absolute;
+      top: 100%;
+      left: 5%;
+      height: 22.03125vw; }
+  #heyri3 .analysisText {
+    position: relative;
+    width: 35.9375vw;
+    height: 8.90625vw;
+    float: left;
+    padding-left: 10.7292vw;
+    margin-top: 8.75vw; }
+    #heyri3 .analysisText img {
+      position: absolute;
+      top: -15px;
+      left: 21%;
+      width: 18.16px;
+      height: 18.36px; }
+    #heyri3 .analysisText p {
+      padding-bottom: 0; }
+
+/* heyri4 CSS */
+#heyri4 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #ffeedb; }
+  #heyri4 .wireframe {
+    display: inline-block;
+    margin-left: 0;
+    position: relative;
+    margin: 4.1667vw 0 6.5104vw;
+    width: 100%; }
+    #heyri4 .wireframe > img:first-child {
+      position: absolute;
+      top: -15px;
+      left: 44.5%;
+      width: 18.16px;
+      height: 18.36px; }
+    #heyri4 .wireframe h3 {
+      text-align: center; }
+    #heyri4 .wireframe .content {
+      padding-bottom: 0;
+      text-align: center; }
+      #heyri4 .wireframe .content span {
+        color: #16aec0; }
+  #heyri4 .wireframeWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1598px;
+    height: 538px;
+    text-align: center;
+    margin: 0 auto; }
+    #heyri4 .wireframeWrap span {
+      display: block;
+      font-family: KoreaDREAM5;
+      font-size: 22px;
+      color: #c4c4c4;
+      text-align: center; }
+
+/* heyri5 CSS */
+#heyri5 {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background: #442A0D; }
+  #heyri5 .pagePreview {
+    display: inline-block;
+    margin-left: 0;
+    position: relative;
+    /* margin: 128px 0 0; */
+    padding-top: 68px;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    padding-bottom: 112px; }
+    #heyri5 .pagePreview .pageBlurImg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto; }
+    #heyri5 .pagePreview > img:nth-child(2) {
+      position: absolute;
+      top: 8%;
+      left: 42.5%;
+      width: 18.16px;
+      height: 18.36px; }
+    #heyri5 .pagePreview h3 {
+      position: relative;
+      color: #fff;
+      text-align: center;
+      font-weight: 400; }
+    #heyri5 .pagePreview .content {
+      position: relative;
+      padding-bottom: 0;
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+      line-height: 34px; }
+      #heyri5 .pagePreview .content span {
+        color: #16aec0; }
+    #heyri5 .pagePreview a {
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      border-radius: 50px;
+      position: relative;
+      display: block;
+      background: #fff;
+      width: 252px;
+      height: 74px;
+      line-height: 74px;
+      font-family: "Fugaz one";
+      font-size: 24px;
+      color: #000;
+      text-align: center;
+      margin: 151px auto 128px; }
+
+/* heyri6 CSS */
+#heyri6 {
+  width: 100%;
+  height: 100vh;
+  background: #ffeedb; }
+  #heyri6 .swiper-slide {
+    position: relative;
+    display: inline-block;
+    margin-left: 0;
+    padding-top: 111px;
+    width: 100%;
+    height: 100vh; }
+    #heyri6 .swiper-slide .detailText {
+      position: relative;
+      width: 100%;
+      height: 81px; }
+      #heyri6 .swiper-slide .detailText > img:first-child {
+        position: absolute;
+        top: -15px;
+        left: 5%;
+        width: 18.16px;
+        height: 18.36px; }
+      #heyri6 .swiper-slide .detailText h3 {
+        display: inline-block;
+        padding: 0 0 0 113px;
+        vertical-align: top; }
+      #heyri6 .swiper-slide .detailText > p {
+        display: inline-block;
+        padding-left: 105px; }
+      #heyri6 .swiper-slide .detailText .detailTitle {
+        font-size: 21px;
+        line-height: 32px; }
+        #heyri6 .swiper-slide .detailText .detailTitle strong {
+          font-size: 25px;
+          padding-bottom: 20px; }
+    #heyri6 .swiper-slide .compare {
+      position: relative;
+      font-size: 0;
+      margin-top: 137px; }
+      #heyri6 .swiper-slide .compare .heyriTabCode {
+        text-align: center; }
+      #heyri6 .swiper-slide .compare > img:nth-child(2) {
+        position: absolute;
+        top: -8%;
+        left: 8%; }
+      #heyri6 .swiper-slide .compare > img:nth-child(3) {
+        position: absolute;
+        top: 18%;
+        left: 32%; }
+      #heyri6 .swiper-slide .compare > img:nth-child(4) {
+        position: absolute;
+        top: 2%;
+        left: 53%; }
+      #heyri6 .swiper-slide .compare > img:nth-child(5) {
+        position: absolute;
+        top: 18%;
+        left: 72%; }
+      #heyri6 .swiper-slide .compare > p {
+        font-size: 21px;
+        text-align: center;
+        line-height: 36px;
+        padding-top: 63px; }
+      #heyri6 .swiper-slide .compare span {
+        color: #16aec0; }
+  #heyri6 .heyriSlide2 .compare2 {
+    position: relative;
+    font-size: 0;
+    margin-top: 137px; }
+    #heyri6 .heyriSlide2 .compare2 .heyrSkipWrap {
+      text-align: center; }
+    #heyri6 .heyriSlide2 .compare2 > img:nth-child(2) {
+      position: absolute;
+      top: 4%;
+      left: 54%; }
+    #heyri6 .heyriSlide2 .compare2 > p {
+      font-size: 21px;
+      text-align: center;
+      line-height: 36px;
+      padding-top: 63px; }
+    #heyri6 .heyriSlide2 .compare2 > span {
+      color: #00E4F3; }
+  #heyri6 .controller {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%; }
+    #heyri6 .controller .swiper-button-next, #heyri6 .controller .swiper-button-prev {
+      -webkit-background-size: cover !important;
+      -moz-background-size: cover !important;
+      background-size: cover !important;
+      position: static;
+      display: block;
+      background: no-repeat center;
+      width: 25px;
+      height: 43px;
+      top: 50%; }
+  #heyri6 .swiper-button-next:after, #heyri6 .swiper-button-prev:after {
+    display: none; }
+
+/*# sourceMappingURL=heyri.css.map */

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@mixin transition($value...) {
+    -webkit-transition: $value;
+    -moz-transition: $value;
+    -o-transition: $value;
+    transition: $value;
+}
+@mixin transform($value...) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -o-transform: $value;
+    -ms-transform: $value;
+    transform: $value;
+}
+@mixin border-radius($value...) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+@mixin bgsize($value) {
+    -webkit-background-size: $value !important;
+    -moz-background-size: $value !important;
+    background-size: $value !important;
+}
+@mixin keyframes($name){
+    @-webkit-keyframes #{$name}{@content;}
+    @-moz-keyframes #{$name}{@content;}
+    @-o-keyframes #{$name}{@content;}
+    @keyframes #{$name}{@content;}
+}
+@mixin animation($value...){
+    -webkit-animation:$value;
+    -moz-animation:$value;
+    -o-animation:$value;
+    animation:$value;
+}
+@mixin flex{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    display: flex;
+}
